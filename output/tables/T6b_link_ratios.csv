@@ -1,0 +1,7 @@
+outcome,link,ratio,se_ratio,ci_lo,ci_hi,interaction_p
+adlfive,linear,2.3571,0.2191,1.9276,2.7866,0.0
+adlfive,poisson,1.7652,0.1639,1.444,2.0865,0.0
+adlfive,logit,1.3494,0.092,1.1691,1.5297,0.0
+iadlfour,linear,4.3871,0.5527,3.3038,5.4704,0.0
+iadlfour,poisson,1.6634,0.2078,1.2561,2.0707,0.0
+iadlfour,logit,1.8674,0.2226,1.4312,2.3037,0.0

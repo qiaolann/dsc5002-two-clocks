@@ -1,0 +1,19 @@
+outcome,link,country,est,se,p,n,unit
+adlfive,linear,China,0.0221,0.0007,0.0,58430,points/year
+adlfive,linear,England,0.0094,0.0008,0.0,33347,points/year
+adlfive,poisson,China,0.0589,0.0017,0.0,58430,log rate/year
+adlfive,poisson,England,0.0334,0.0029,0.0,33347,log rate/year
+adlfive,logit,China,0.0604,0.0017,0.0,58430,log odds/year
+adlfive,logit,England,0.0448,0.0028,0.0,33347,log odds/year
+adlfive,linear,interaction,-0.0128,0.0011,0.0,91777,difference
+adlfive,poisson,interaction,-0.0258,0.0034,0.0,91777,difference
+adlfive,logit,interaction,-0.0161,0.0032,0.0,91777,difference
+iadlfour,linear,China,0.0207,0.0006,0.0,58602,points/year
+iadlfour,linear,England,0.0047,0.0006,0.0,33347,points/year
+iadlfour,poisson,China,0.0549,0.0015,0.0,58602,log rate/year
+iadlfour,poisson,England,0.033,0.004,0.0,33347,log rate/year
+iadlfour,logit,China,0.0577,0.0016,0.0,58602,log odds/year
+iadlfour,logit,England,0.0309,0.0036,0.0,33347,log odds/year
+iadlfour,linear,interaction,-0.0159,0.0009,0.0,91949,difference
+iadlfour,poisson,interaction,-0.0218,0.0043,0.0,91949,difference
+iadlfour,logit,interaction,-0.0268,0.0039,0.0,91949,difference

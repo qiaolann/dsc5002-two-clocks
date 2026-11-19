@@ -1,0 +1,9 @@
+model,outcome,term,est,se,ci_lo,ci_hi,p,n,r2,p_joint
+China,adlfive,age slope (per year),0.0221,0.0007,0.0207,0.0235,0.0,58430,0.0333,
+England,adlfive,age slope (per year),0.0094,0.0008,0.0078,0.011,0.0,33347,0.0077,
+pooled: England,adlfive,age slope (per year),0.0221,0.0007,0.0207,0.0236,0.0,91777,0.0268,
+pooled: age x England,adlfive,age_c:eng,-0.0128,0.0011,-0.0149,-0.0107,0.0,91777,0.0268,0.0
+China,iadlfour,age slope (per year),0.0207,0.0006,0.0194,0.0219,0.0,58602,0.036,
+England,iadlfour,age slope (per year),0.0047,0.0006,0.0036,0.0058,0.0,33347,0.0043,
+pooled: England,iadlfour,age slope (per year),0.0206,0.0006,0.0194,0.0219,0.0,91949,0.0475,
+pooled: age x England,iadlfour,age_c:eng,-0.0159,0.0009,-0.0176,-0.0142,0.0,91949,0.0475,0.0
