@@ -15,9 +15,15 @@ __pycache__/
 *.pyc
 code/vendor/
 
-# report folder: ship the PDF only (source md, docx and page previews stay local)
-report/*
-!report/DSC5002_Group_Project_Report.pdf
-
-# local helper, not part of the deliverable
+# local helpers, not part of the deliverable
 push.bat
+setup_latex.bat
+.tools/
+
+# report folder: final LaTeX source, its class file, the figures and the PDF
+report/*
+!report/report.tex
+!report/report.pdf
+!report/llncs.cls
+!report/figures
+!report/figures/*.png

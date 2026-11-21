@@ -1,0 +1,28 @@
+{
+  "latex-workshop.latex.tools": [
+    {
+      "name": "tectonic",
+      "command": "tectonic",
+      "args": ["-X", "compile", "%DOC%"],
+      "env": {}
+    },
+    {
+      "name": "tectonic-full-path",
+      "command": "C:\\Users\\Lenovo\\bin\\tectonic.exe",
+      "args": ["-X", "compile", "%DOC%"],
+      "env": {}
+    }
+  ],
+  "latex-workshop.latex.recipes": [
+    { "name": "Tectonic", "tools": ["tectonic"] },
+    { "name": "Tectonic (full path)", "tools": ["tectonic-full-path"] }
+  ],
+  "latex-workshop.latex.recipe.default": "first",
+  "latex-workshop.latex.autoBuild.run": "onSave",
+  "latex-workshop.view.pdf.viewer": "tab",
+  "latex-workshop.latex.autoClean.run": "never",
+  "latex-workshop.message.error.show": true,
+  "latex-workshop.message.warning.show": false,
+  "files.associations": { "*.tex": "latex" },
+  "editor.wordWrap": "on"
+}
